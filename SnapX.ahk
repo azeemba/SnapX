@@ -61,11 +61,11 @@ SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 
 Tray.initIcon()
 
-if not A_IsAdmin
-{
-	Run *RunAs "%A_ScriptFullPath%"
-	ExitApp
-}
+; if not A_IsAdmin
+; {
+; 	Run *RunAs "%A_ScriptFullPath%"
+; 	ExitApp
+; }
 
 SoundPlay *64
 TrayTip, % Settings.programTitle, Loaded

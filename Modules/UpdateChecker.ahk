@@ -34,7 +34,7 @@ debug.write("Checking for updates")
 		try
 		{
 			whr := ComObjCreate("WinHttp.WinHttpRequest.5.1")
-			whr.Open("GET", "https://raw.githubusercontent.com/benallred/SnapX/master/Build.ahk", true)
+			whr.Open("GET", "https://raw.githubusercontent.com/azeemba/SnapX/master/Build.ahk", true)
 			whr.Send()
 			whr.WaitForResponse(10)
 			latestRelease := whr.ResponseText

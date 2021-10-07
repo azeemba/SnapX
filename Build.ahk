@@ -1,2 +1,2 @@
-Build := { version: "1.1.4" }
-;@Ahk2Exe-SetVersion 1.1.4
+Build := { version: "2.0.0" }
+;@Ahk2Exe-SetVersion 2.0.0
